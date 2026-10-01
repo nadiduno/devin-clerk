@@ -4,22 +4,34 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "Fenix Camisetas",
+  description: "Site para Fenix para vender camisetas.",
+  emoji: "🔥",
+  accent: "#ea580c",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Catálogo de camisetas",
+      description: "Uma vitrine com foto, preço e tamanhos de cada camiseta.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Página do produto",
+      description: "Escolher tamanho e cor antes de adicionar ao carrinho.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Carrinho de compras",
+      description: "Adicionar e remover camisetas e ver o total atualizado.",
+    },
+    {
+      title: "Checkout com Pix",
+      description: "Pagar o pedido com Pix ou cartão de forma segura.",
+    },
+    {
+      title: "Meus pedidos",
+      description: "Histórico de compras de cada cliente com o status da entrega.",
+    },
+    {
+      title: "Painel do administrador",
+      description: "Cadastrar novas camisetas e controlar o estoque.",
     },
   ] satisfies Feature[],
 };
